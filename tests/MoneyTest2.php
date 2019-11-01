@@ -83,7 +83,7 @@ class MoneyTest2 extends TestCase
     {
         $this->assertEquals(
             new Money(1234, new Currency('EUR')),
-            Money::fromString('12.34', new Currency('EUR'))
+            Money::fromString('12.345', new Currency('EUR'))
         );
     }
 
