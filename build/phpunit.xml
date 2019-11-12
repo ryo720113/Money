@@ -22,7 +22,7 @@
         <log type="junit" target="logs/junit.xml"/>
         <log type="testdox-html" target="testdox/index.html"/>
     </logging>
-
+	<!--
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">../src</directory>
@@ -31,5 +31,6 @@
             </exclude>
         </whitelist>
     </filter>
+	-->
 </phpunit>
 
